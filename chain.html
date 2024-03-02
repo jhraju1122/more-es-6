@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chain</title>
+</head>
+<body>
+    <!--
+       topic:=>> access Value, nested object, Option  
+      -->
+
+<p id="data"></p>
+
+
+
+
+
+
+
+
+    <script>
+//data access
+const data = [{id: 1, name:'abul', address: 'kochu khet'}]
+console.log(data[0]);
+ 
+////
+const products = {
+    count: 5000,
+    data: [
+        {id: 1, name:'abul', address: 'kochu khet'},
+        {id: 2, name:'lanovo', address: 'khil khet'}
+    ]
+}
+
+console.log(products.data[0].address);
+
+
+
+/////////
+
+
+const user = {
+    id: 12118016,
+    name: 'jamal hosen',
+    address:{
+        city:'dhaka',
+        country: 'bangladesh'
+    }
+}
+
+console.log(user.address.city)
+
+//////////////
+    </script>
+</body>
+</html>
